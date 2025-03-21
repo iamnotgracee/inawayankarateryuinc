@@ -9,32 +9,6 @@ nav{
     border-bottom-right-radius: 15px;
     box-shadow: 0 0 5px 3px rgba(0,0,0, 0);
 }
-
-
-
-/* Mobile Menu Styles */
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block; /* Show button on small screens */
-    }
-
-    .links-container {
-        display: none; /* Hide menu by default */
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: #333;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .links-container.active {
-        display: flex; /* Show menu when active */
-    }
-}
-
 .brand-container{
     text-align: center;
     color: white;
@@ -251,7 +225,7 @@ h4{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .event {
         flex-direction: column;
         text-align: center;
@@ -352,7 +326,7 @@ h4{
 }
 
 /* Responsive design */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .awards-section {
         flex-direction: column;
         align-items: flex-start;
@@ -526,7 +500,7 @@ footer {
     margin-left: 250px; 
     padding: 20px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .contact-wrapper {
         flex-direction: column; /* Stack vertically */
         width: 100%;
@@ -604,7 +578,7 @@ iframe{
 }
 
 /* Responsive Design */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     button.container {
         flex-direction: column;
         text-align: center;
@@ -696,7 +670,7 @@ ul li::before {
     font-size: 16px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -781,4 +755,5 @@ tr:nth-child(even) {
     text-align: center; /* Center text inside table */
     margin-left: 250px;
     width: calc(100%-350px)
+}
 }
