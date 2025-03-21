@@ -18,6 +18,31 @@ nav{
     cursor: pointer;
     margin-left: auto;
 }
+
+
+/* Mobile Menu Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show button on small screens */
+    }
+
+    .links-container {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #333;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .links-container.active {
+        display: flex; /* Show menu when active */
+    }
+}
+
 .brand-container{
     text-align: center;
     color: white;
