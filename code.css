@@ -9,6 +9,15 @@ nav{
     border-bottom-right-radius: 15px;
     box-shadow: 0 0 5px 3px rgba(0,0,0, 0);
 }
+.menu-toggle {
+    display: none; /* Hidden on larger screens */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: auto;
+}
 .brand-container{
     text-align: center;
     color: white;
